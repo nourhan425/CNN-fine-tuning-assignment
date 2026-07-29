@@ -6,6 +6,9 @@ This project implements transfer learning for binary image classification using 
 
 ### Motivation for Transfer Learning
 
+<img width="939" height="388" alt="image" src="https://github.com/user-attachments/assets/7040eef5-c3b8-4a7e-893e-48677c59d277" />
+
+
 Transfer learning addresses the challenge of limited training data by leveraging knowledge learned from large-scale datasets. Rather than training a deep neural network from scratch, which requires substantial computational resources and large amounts of labeled data, transfer learning reuses pre-trained models. MobileNetV2, trained on ImageNet with 1.4 million images across 1,000 classes, has already learned robust low-level and mid-level features (edges, textures, shapes) that are transferable to the cats vs dogs classification task. This approach significantly reduces training time and improves generalization with limited data.
 
 ## Dataset
